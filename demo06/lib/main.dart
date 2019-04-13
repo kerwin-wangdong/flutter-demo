@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'frosted_glass_demo.dart';
+import 'search_bar_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,12 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Scaffold(
-        body: FrostedClassDemo(),
-      ),
+      theme: ThemeData.light(),
+      home: SearchBarDemo(),
     );
   }
 }
